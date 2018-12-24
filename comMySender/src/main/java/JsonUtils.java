@@ -108,7 +108,7 @@ public class JsonUtils {
 
 
 
-    // создаем объект URL из указанной в параметре строки
+   
     public static URL createUrl(String link) {
         try {
             return new URL(link);
