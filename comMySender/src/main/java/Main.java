@@ -3,11 +3,11 @@ import java.net.URL;
 
 public class Main {
 
-    public static final String WEATHER_URL = "http://main3.mysender.ru/persons.json";
+    public static final String PERSONS_URL = "http://main3.mysender.ru/persons.json";
 
     public static void main(String[] args) {
         // создаем URL из строки
-        URL url = JsonUtils.createUrl(WEATHER_URL);
+        URL url = JsonUtils.createUrl(PERSONS_URL);
 
         // загружаем Json в виде Java строки
         String resultJson = JsonUtils.parseUrl(url);
